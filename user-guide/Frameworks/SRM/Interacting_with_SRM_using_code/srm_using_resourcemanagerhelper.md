@@ -12,7 +12,7 @@ The *ResourceManagerHelper* class can be used in code to interact with *Resource
 var helper = new ResourceManagerHelper(engine.SendSLNetSingleResponseMessage);
 
 // In an ad hoc data source
-var helper = new ResourceManagerHelper(gqiDms.SendMessages);
+var helper = new ResourceManagerHelper(gqiDms.SendMessage);
 
 // In a connector QAction
 var helper = new ResourceManagerHelper(protocol.SLNet.SendSingleResponseMessage);
